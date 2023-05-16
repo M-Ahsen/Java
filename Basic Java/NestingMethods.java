@@ -19,7 +19,7 @@ class Task1 {
 	}
 }
 
-class UnderstandNesting {
+class NestingMethods {
 	public static void main(String args[]) {
 		Task1 obj = new Task1(10,20);		
 		obj.display();

@@ -16,9 +16,10 @@ class Circle extends Shape{
  
 class Q_2 {  
     public static void main(String args[]) {  
-        Shape obj1 = new Rectangle(); 
-        obj1.draw();
-        Shape obj2 = new Circle(); 
-        obj2.draw();  
+        Shape obj;
+        obj = new Rectangle(); 
+        obj.draw();
+        obj = new Circle(); 
+        obj.draw();  
     }  
 }  

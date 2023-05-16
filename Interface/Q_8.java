@@ -1,5 +1,6 @@
 interface Drawable {  
-    void draw();  
+    void draw(); 
+     
     static int cube(int x) {
         return x*x*x;
     }  

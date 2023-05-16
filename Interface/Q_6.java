@@ -9,7 +9,8 @@ interface Showable extends Printable {
 class Q_6 implements Showable {  
     public void print() {
         System.out.println("Hello");
-    }  
+    }
+      
     public void show() {
         System.out.println("Welcome");
     }  

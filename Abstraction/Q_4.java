@@ -1,11 +1,11 @@
 abstract class Bike {  
     Bike() {
         System.out.println("bike is created");
-        }
+    }
 
-        abstract void run();  
+    abstract void run();  
 
-        void changeGear() {
+    void changeGear() {
         System.out.println("gear changed");
     }  
  }  

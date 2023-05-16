@@ -1,5 +1,6 @@
 interface Drawable {  
-    void draw();  
+    void draw(); 
+     
     default void msg() {
         System.out.println("default method");
     }  

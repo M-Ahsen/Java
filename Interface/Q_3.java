@@ -3,12 +3,14 @@ interface Bank {
 }  
 
 class MCB implements Bank {  
-    public float rateOfInterest() {return 9.15f;
+    public float rateOfInterest() {
+        return 9.15f;
     }  
 }  
 
 class HBL implements Bank {  
-    public float rateOfInterest() {return 9.7f;
+    public float rateOfInterest() {
+        return 9.7f;
     }  
 }  
 
