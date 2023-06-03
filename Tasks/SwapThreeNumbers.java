@@ -7,10 +7,9 @@ public class SwapThreeNumbers {
         System.out.println("Before Swap:");
         System.out.println("A = " + A + ", B = " + B + ", C = " + C);
 
-        A = A ^ B ^ C;
-        B = A ^ B ^ C;
-        C = A ^ B ^ C;
-        A = A ^ B ^ C;
+        A = C;
+        B = A-B;
+        C = A-B;
 
         System.out.println("After Swap:");
         System.out.println("A = " + A + ", B = " + B + ", C = " + C);

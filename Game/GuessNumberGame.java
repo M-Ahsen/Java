@@ -44,9 +44,10 @@ public class GuessNumberGame {
                 game.input();
                 check = game.checkGuess();
             } 
+        System.out.println("You want to Play again (yes/no)");
         playAgain = sc.next();
-        if(playAgain.equals("no"));
-        break;
+        if(playAgain.equalsIgnoreCase("no")){
+            break;}
         }
     }
 }
