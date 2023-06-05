@@ -18,7 +18,6 @@ class Game {
     }
 
     public boolean checkGuess() {
-        System.out.println(guess);
         totalAttempts++;
         if(input == guess) {
             System.out.format("Congratulation You Win\nTotal Attempts = %d\n",totalAttempts);
